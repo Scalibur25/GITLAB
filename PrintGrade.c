@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+void push(int a){
+  change something here
+}
+
 void main()
 {
   char Name[30][40] = {"Sam Matthews", "Mary McBeth", "Ying Phakpon","Chai Chanchai", "Yong Boonsith", "Kitti Karndee"}; 

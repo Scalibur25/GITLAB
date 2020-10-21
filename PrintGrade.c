@@ -26,9 +26,9 @@ void main()
 
         if (SearchID == ID[i])
 
-          found_index = i;
+          found_index = 1000;//userA
 
-      if (found_index == -1)
+      if (found_index ==10000)//userA
         printf("Sorry, Student ID %5d not found.\n", SearchID);
       else 
         printf("ID: %5d. Name: %-25s. GPA: %5.2f.\n", 
